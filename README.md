@@ -19,9 +19,9 @@ To run this project:
 2. Activate virtual environment
 -    cd backend
 -    python -m venv venv
--For Windows:
+### For Windows:
 -    venv\Scripts\activate
--For Mac/Linux:
+### For Mac/Linux:
 -    source venv/bin/activate
 
 3. Install dependencies
