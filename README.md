@@ -1,7 +1,7 @@
 # Player Performance Predictor
 
 ## Overview
-This application was mostly designed to predict a player's performance for an upcoming season based on historical data.
+This application was designed to predict a player's performance for an upcoming season based on recorded data.
 
 ## Technologies Used
 - **Backend**: Django
@@ -17,9 +17,9 @@ To run this project:
     git clone https://github.com/yourusername/player-performance-predictor.git
 
 2. Activate virtual environment
-    cd player-performance-predictor/backend
+    cd backend
     python -m venv venv
-For windows:
+For Windows:
     venv\Scripts\activate
 For Mac/Linux:
     source venv/bin/activate
@@ -36,6 +36,7 @@ For Mac/Linux:
     python nba-player-performance-predictor\backend\player_performance_predictor\build_model\data_processing.py
 
 6. To run the database and API
+    cd backend
     python manage.py migrate
     python manage.py runserver
 
