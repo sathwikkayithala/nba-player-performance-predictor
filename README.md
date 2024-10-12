@@ -17,29 +17,29 @@ To run this project:
 -    git clone https://github.com/yourusername/player-performance-predictor.git
 
 2. Activate virtual environment
--    cd backend
--    python -m venv venv
-### For Windows:
--    venv\Scripts\activate
-### For Mac/Linux:
--    source venv/bin/activate
+--    cd backend
+--    python -m venv venv
+- For Windows:
+--    venv\Scripts\activate
+- For Mac/Linux:
+--    source venv/bin/activate
 
 3. Install dependencies
--    pip install -r requirements.txt
+--    pip install -r requirements.txt
 
 4. Install packages for frontend
--    cd ../frontend
--    npm install
+--    cd ../frontend
+--    npm install
 
 5. In order to save the data to the database run this once
--    cd ..
--    python nba-player-performance-predictor\backend\player_performance_predictor\build_model\data_processing.py
+--    cd ..
+--    python nba-player-performance-predictor\backend\player_performance_predictor\build_model\data_processing.py
 
 6. To run the database and API
--    cd backend
--    python manage.py migrate
--    python manage.py runserver
+--    cd backend
+--    python manage.py migrate
+--    python manage.py runserver
 
 7. In a new terminal
--    cd ../frontend
--    npm run dev
+--    cd ../frontend
+--    npm run dev
